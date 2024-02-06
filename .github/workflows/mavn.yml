@@ -21,3 +21,7 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - name: Compile maven
+      run: mvn compile
+    - name: Javafx run
+      run: mvn javafx:run
