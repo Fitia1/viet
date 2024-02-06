@@ -24,4 +24,4 @@ jobs:
     - name: Compile maven
       run: mvn compile
     - name: Javafx run
-      run: mvn javafx:run
+      run: mvn javafx:run --headless
